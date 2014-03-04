@@ -1,0 +1,11 @@
+Package: dbdf
+Type: Package
+Title: What the package does (short line)
+Version: 0.0.4
+Date: 2014-03-04
+Author: David J Reiss, Institute for Systems Biology
+Maintainer: David J Reiss <dreiss@systemsbiology.org>
+Description: More about what it does (maybe more than one line)
+License: GPL-2
+Depends: RSQLite, DBI 
+Suggests: RMySQL 
