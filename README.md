@@ -17,16 +17,17 @@ a preliminary big-data vector that is stored in a database is also in here.
 
 First, to install (in R):
 
-```
+```R
 install.packages('devtools', dep=T)
 require(devtools)
 install_github('dbdf', 'dreiss-isb', subdir='dbdf')
 ```
 
+====
+
 Examples:
 
-====
-```
+```R
   dbdf.driver( "SQLite" ) ## use SQLite (default)
   dbdf.verbose( TRUE ) ## have dbdf print out all database operations
   s <- dbdf( iris, "iris", overwrite=T ) ## store 'iris' table to a sqlite database, file called 'iris'
